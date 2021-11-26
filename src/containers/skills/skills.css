@@ -1,11 +1,16 @@
-.features {
+.skills {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-
-.features-heading {
+.skills1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.skills-heading {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -16,15 +21,17 @@
     margin-right: 5rem;
 }
 
-.features-heading h1 {
+.skills-heading h1 {
     font-size: 34px;
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
 }
-
-.features-heading p {
-    color: var(--color-subtext);
+.section__paddings{
+    padding:0 4rem;
+}
+.skills-heading p {
+    color: white;
     font-size: 2rem;
     line-height: 30px;
     font-weight: 500;
@@ -33,27 +40,170 @@
     margin-bottom: 2rem;
 }
 
-.features-container {
-    flex: 1.5;
+.skills-container {
+    flex: 1.2;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    color: white;
+    margin-top: 50px;
+    margin-right: 30px;
 }
 
+.about__skills{
+    border: 1px solid violet;
+    padding: 2rem;
+    margin:0 2rem;
+    width: 100%;
+}
+.skills__container {
+    gap: 0;
+}
+.skills__number,
+.skills__name{
+    color: white;
+}
+.skills__header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+}
+
+.skills__icon,
+.skills__arrow {
+    font-size: 2rem;
+    color: var(--color-subtext);
+}
+
+.skills__icon {
+    margin-right: .75rem;
+}
+
+.skills__title {
+    font-size: 1.25rem;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.skills__subtitle {
+    font-size: .75rem;
+    color: white;
+
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: .4s;
+}
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 5px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar {
+    background-color: var(--color-text);
+}
+
+.skills__percentage {
+    display: block;
+    background:var(--gradient-text);
+
+}
+
+.skills__html {
+    width: 80%;
+}
+
+.skills__css {
+    width: 70%;
+}
+
+.skills__ractjs {
+    width: 70%;
+}
+
+.skills__javascript {
+    width: 40%;
+}
+
+.skills__nodejs {
+    width: 80%;
+}
+
+.skills__mongodb {
+    width: 70%;
+}
+
+.skills__angular-js {
+    width: 70%;
+}
+
+.skills__C-Programming {
+    width: 60%;
+}
+
+.skills__C {
+    width: 40%;
+}
+
+.skills__javascript {
+    width: 80%;
+}
+
+.skills__data-stucture {
+    width: 60%;
+}
+
+.skills__close .skills__list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list {
+    height: max-content;
+    margin-bottom: 2.5rem;
+}
+
+.skills__open .skills__arrow {
+    transform: rotate(-180deg);
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-gap: 10px;
+}
+
+
 @media screen and (max-width: 990px) {
-    .features {
+    .skills {
         flex-direction: column;
     }
 
-    .features-heading {
+    .skills-heading {
         margin: 0 0 2rem 0;
     }
 }
 
 
 @media screen and (max-width: 550px) {
-    .features-heading h1 {
+    .skills-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }
