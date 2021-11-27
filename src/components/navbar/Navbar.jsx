@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.css'
-import logo from '../../logo.svg'
+import logo from '../../assests/ll.png'
 const Navbar=() =>{
     const [toggleManu , setToggleMenu] = useState(false);
 
@@ -9,20 +9,20 @@ const Navbar=() =>{
         <div className="navbar">
             <div className="navbar-links">
                 <div className="navbar-links-logo">
-                    <p>Banty</p>
-                    {/* <img src={logo} alt="" /> */}
+                    {/* <p>Banty</p> */}
+                    <img src={logo} alt="" />
                 </div>
-                <div className="navbar-links__container">
-                    {/* <p><a href="#home">Home</a></p> */}
+                 <div className="navbar-links__container">
+                    {/* <p><a href="#home">Home</a></p>
                     <p><a href="#about">About</a></p>
                     <p><a href="#skill">Skill</a></p>
                     <p><a href="#project">Project</a></p>
-                    <p><a href="#">online CV</a></p>
-                </div>
+                    <p><a href="#">online CV</a></p> */}
+                </div> 
             </div>
                 <div className="navbar-sign">
-                    <p>Sign in</p>
-                    <button type="button">Sign Up</button>
+                    {/* <p>Sign in</p>
+                    <button type="button">Sign Up</button> */}
                 </div>
             <div className="navbar-menu">
                 {toggleManu ? 
@@ -33,7 +33,7 @@ const Navbar=() =>{
                    <div className="navbar-menu__container scale-up-center">
                        <div className="navbar-menu__container-links">
 
-                   {/* <p><a href="#home">Home</a></p> */}
+                   <p><a href="#home">Home</a></p>
                    <p><a href="#about">About</a></p>
                    <p><a href="#skill">Skill</a></p>
                    <p><a href="#project">Project</a></p>
