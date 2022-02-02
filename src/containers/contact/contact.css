@@ -22,3 +22,13 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+
+@media (max-width:800px) {
+    .contact__container{
+        margin-top: 20vh;
+        height: 70vh;
+    }
+    .contact__title{
+        font-size: 3rem;
+    }
+}

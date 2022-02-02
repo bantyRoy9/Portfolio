@@ -20,7 +20,7 @@ const About = () => {
                          <h1 className="quota-title">The possibilities are beyond the imagination..</h1>
                      </div>
                      <div className="about__explore">
-                         <a href="#">Explore more</a>
+                         <a href="/">Explore more</a>
                     </div>
                  </div>
                  <div className="about__container-block3">

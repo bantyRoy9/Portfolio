@@ -202,9 +202,40 @@
 }
 
 
-@media screen and (max-width: 550px) {
-    .skills-heading h1 {
-        font-size: 28px;
-        line-height: 38px;
+@media (max-width: 800px) {
+    .skills{
+        text-align: center;
     }
+    .skills-heading {
+    
+        text-align: center;
+        font-size: 20px;
+    }
+    .skills-heading p{
+        margin: auto;
+        
+    }
+    .skills-heading h1{
+        margin-top: 20px;
+    }
+    .skills1{
+        padding: 2px;
+        width: 90%;
+        flex-direction: column; 
+    }
+    .about__skills{
+            margin: 2rem;
+    }
+    .aaa{
+        margin: .1rem;
+        padding: 2rem;
+    }
+    .skills-container{
+        display: block;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    
+
 }

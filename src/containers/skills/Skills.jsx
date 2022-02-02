@@ -14,8 +14,8 @@ const Skills = () => (
       <h1 className="gradient__text">The Future is Now and We Just Need to Realize It. Step into Future Today. & Make it Happen...</h1>
     </div>
     <div className="skills-container">
-    <div className="abouts__container container skills__container">
-                <div className="about__skills">
+    <div className="skills__container">
+                <div className="about__skills aaa">
                     
                     <div className="Skills__content skills-open" >
                         
@@ -26,7 +26,7 @@ const Skills = () => (
                                 <span className="skills__subtitle">HTML,CSS, JavaScript ...</span>
 
                             </div>
-                            <i className="uil uil-angle-down skills__arrow" onClick={OpenToggle}></i>
+                            {/* <i className="uil uil-angle-down skills__arrow" onClick={OpenToggle}></i> */}
                         </div>
                         <div className="skills__list grids">
                             <div className="skills__data">
@@ -96,7 +96,7 @@ const Skills = () => (
     </div>
  </div>
  <div className="skills1 section__paddings">
- <div class="about__skills intros">
+                <div class="about__skills intros">
                     <div class="Skills__content skills__open">
                         <div class="skills__header">
                             <i class="uil uil-server-network  skills__icon"></i>
@@ -105,7 +105,7 @@ const Skills = () => (
                                 <span class="skills__subtitle">Node.Js,Express,Mongodb...</span>
 
                             </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            {/* <i class="uil uil-angle-down skills__arrow"></i> */}
                         </div>
                         <div class="skills__list grids">
                             <div class="skills__data">
@@ -174,7 +174,7 @@ const Skills = () => (
                                 <span class="skills__subtitle">JavaScript, Data Structure, C</span>
 
                             </div>
-                            <i class="uil uil-angle-down skills__arrow"></i>
+                            {/* <i class="uil uil-angle-down skills__arrow"></i> */}
                         </div>
                         <div class="skills__list grids">
                             <div class="skills__data">

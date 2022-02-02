@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
-import react from 'react';
+// import react from 'react';
 import './App.css';
 import {About, Contact , Footer , Header, Projects, Skills} from './containers'
-import {Article, Navbar} from './components'
+import { Navbar} from './components'
 
 const  App = () => {
   return (

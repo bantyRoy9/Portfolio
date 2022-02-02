@@ -77,3 +77,29 @@ background:conic-gradient(from 90deg at 0% 100%, rgba(0, 0, 0, 1) 98%, rgba(7, 5
 
     }
 }
+@media  (max-width: 800px) {
+    .intro{
+        padding: 20px 20px;
+        /* height: 80vh; */
+        max-height: max-content;
+        line-height: 50px;
+        /* width: 100vh; */
+    }
+    .intro h1 {
+        font-size: 5vh;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 20px;
+        /* text-align: center; */
+        }
+    .name{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }    
+    .intro a{
+        /* text-align: center; */
+        width: 80vw;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+}

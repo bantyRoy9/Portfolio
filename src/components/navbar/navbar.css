@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 700px) {
     .navbar {
-        padding: 2rem 4rem;
+        padding: 1rem;
     }
     .navbar-sign{
         display: none;
@@ -120,7 +120,7 @@
 
 @media screen and (max-width:550px) {
     .navbar{
-        padding: 2rem;
+        padding: 1rem;
         
     }   
     .navbar-links__container{
@@ -139,5 +139,10 @@
         display: block;
     }
 }
-
+@media (max-width:400px) {
+    .navbar-links-logo img{
+        width: 60px;
+        height: 60px;
+    }
+}
 

@@ -14,18 +14,18 @@ const Footer =() =>{
                     <div class="footer__social">
 
                     <a href="https://www.linkedin.com/in/banty-rai-8ab795197/" class="footer__social-links"
-                        target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                        target="_blank" rel="noreferrer"><i class="uil uil-linkedin-alt"></i></a>
 
-                    <a href="https://github.com/bantyRoy9" class="footer__social-link" target="_blank">
+                    <a href="https://github.com/bantyRoy9" class="footer__social-link" target="_blank" rel="noreferrer">
                         <i class="uil uil-github"></i>
                     </a>
 
                     <a href="https://www.facebook.com/profile.php?id=100008586853201" class="footer__social-link"
-                        target="_blank">
+                        target="_blank" rel="noreferrer">
                         <i class="uil uil-facebook-f"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/_banty_roy_/" class="footer__social-link " target="_blank">
+                    <a href="https://www.instagram.com/_banty_roy_/" class="footer__social-link " target="_blank" rel="noreferrer">
                         <i class="uil uil-instagram"></i>
                     </a>
 

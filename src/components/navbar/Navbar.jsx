@@ -17,7 +17,7 @@ const Navbar=() =>{
                     <p><a href="#about">About</a></p>
                     <p><a href="#skill">Skill</a></p>
                     <p><a href="#project">Project</a></p>
-                    <p><a href="#">online CV</a></p> */}
+                    <p><a href="/">online CV</a></p> */}
                 </div> 
             </div>
                 <div className="navbar-sign">
@@ -37,14 +37,14 @@ const Navbar=() =>{
                    <p><a href="#about">About</a></p>
                    <p><a href="#skill">Skill</a></p>
                    <p><a href="#project">Project</a></p>
-                   <p><a href="#">online CV</a></p>
+                   <p><a href="/">online CV</a></p>
                  </div>
                  <div className="navbar-menu_container-links-sign">
                  <p>Sign in</p>
                  <button type="button">Sign up</button>
               </div>
                 </div> 
-                )}
+                )};
         </div>
         </div>
     );

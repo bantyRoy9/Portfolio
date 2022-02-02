@@ -96,3 +96,52 @@
 .project__subcontainer4{
     margin-top: 115px;
 }
+
+@media (max-width:800px) {
+    
+    .project__title{
+        font-size: 18px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .projects__container{
+        grid-template-columns: none;
+        width: auto;
+        /* height: 50%; */
+    }
+    .project__subcontainers{
+        grid-template-columns: none;
+    }
+    .project__container1{
+        width: 100%;
+        height: 100%;
+    }
+    .project__container2{
+        margin-top: -150px;
+        height: 50%;
+    }
+    .project__details{
+        height: 50%;
+    }
+    .project__detail-title p{
+        height: 50%;
+        /* width: 30%; */
+        overflow: scroll;
+    }
+    .project__subcontainer1{
+        margin-top: 1px;
+        height: 50%;
+    }
+    .project__subcontainer2{
+        margin-top: -150px;
+        height: 60%;
+    }
+    .project__subcontainer3{
+        height: 60%;
+        margin-top: -180px;
+    }
+    .project__subcontainer4{
+        /* height: 50%; */
+        margin-top: -200px;
+    }
+}

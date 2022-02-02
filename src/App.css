@@ -9,6 +9,7 @@
   body {
     background: var(--color-bg);
     font-family: var(--font-family);
+    
   }
   
   a {
@@ -68,7 +69,14 @@ h4 {
 ul {
     list-style: none;
 }
-
+@media  (max-width: 400px) {
+  .section__padding {
+      padding: 1rem;
+      }
+  .section__margin{
+    margin: 1rem;
+  }
+}
 img {
     min-width: 100%;
     height: auto;
@@ -79,6 +87,12 @@ img {
   background:linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%) ;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   margin: 4px 4px;
+}
+@media (max-width:800px) {
+  .line{
+    text-align: center;
+    margin: auto;
+  }
 }
 
 .button {
@@ -177,7 +191,7 @@ img {
     }
   }
   
-  @media screen and (max-width: 700px) {
+  /* @media screen and (max-width: 700px) {
     .section__padding {
       padding: 4rem;
     }
@@ -195,4 +209,4 @@ img {
     .section__margin {
       margin: 4rem 2rem;
     }  
-  }
+  } */
