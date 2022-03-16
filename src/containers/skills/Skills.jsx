@@ -110,7 +110,7 @@ const Skills = () => (
                         <div class="skills__list grids">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
+                                    <h3 class="skills__name">NodeJs</h3>
                                     <span class="skills__number">80%</span>
 
                                 </div>
@@ -123,7 +123,7 @@ const Skills = () => (
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Node.js</h3>
+                                    <h3 class="skills__name">Express</h3>
                                     <span class="skills__number">80%</span>
 
                                 </div>
@@ -146,18 +146,18 @@ const Skills = () => (
                                     </span>
                                 </div>
                             </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Express</h3>
-                                    <span class="skills__number">75%</span>
+//                             <div class="skills__data">
+//                                 <div class="skills__titles">
+//                                     <h3 class="skills__name">Express</h3>
+//                                     <span class="skills__number">75%</span>
 
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__angular-js">
+//                                 </div>
+//                                 <div class="skills__bar">
+//                                     <span class="skills__percentage skills__angular-js">
 
-                                    </span>
-                                </div>
-                            </div>
+//                                     </span>
+//                                 </div>
+//                             </div>
 
 
                         </div>
@@ -171,12 +171,24 @@ const Skills = () => (
                             <i class="uil uil-programming-language  skills__icon"></i>
                             <div>
                                 <h1 class="skills__title">programming Language</h1>
-                                <span class="skills__subtitle">JavaScript, Data Structure, C</span>
+                                <span class="skills__subtitle">JavaScript, C, c++</span>
 
                             </div>
                             {/* <i class="uil uil-angle-down skills__arrow"></i> */}
                         </div>
                         <div class="skills__list grids">
+                          <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">80%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__javascript">
+
+                                    </span>
+                                </div>
+                            </div>
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">C Programming</h3>
@@ -203,30 +215,19 @@ const Skills = () => (
                                 </div>
                             </div>
 
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">80%</span>
+                            
+//                             <div class="skills__data">
+//                                 <div class="skills__titles">
+//                                     <h3 class="skills__name">Data Stucture</h3>
+//                                     <span class="skills__number">60%</span>
 
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__javascript">
+//                                 </div>
+//                                 <div class="skills__bar">
+//                                     <span class="skills__percentage skills__data-stucture">
 
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Data Stucture</h3>
-                                    <span class="skills__number">60%</span>
-
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__data-stucture">
-
-                                    </span>
-                                </div>
-                            </div>
+//                                     </span>
+//                                 </div>
+//                             </div>
 
 
                         </div>
