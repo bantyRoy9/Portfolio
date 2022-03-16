@@ -146,20 +146,6 @@ const Skills = () => (
                                     </span>
                                 </div>
                             </div>
-//                             <div class="skills__data">
-//                                 <div class="skills__titles">
-//                                     <h3 class="skills__name">Express</h3>
-//                                     <span class="skills__number">75%</span>
-
-//                                 </div>
-//                                 <div class="skills__bar">
-//                                     <span class="skills__percentage skills__angular-js">
-
-//                                     </span>
-//                                 </div>
-//                             </div>
-
-
                         </div>
 
                     </div>
@@ -216,18 +202,6 @@ const Skills = () => (
                             </div>
 
                             
-//                             <div class="skills__data">
-//                                 <div class="skills__titles">
-//                                     <h3 class="skills__name">Data Stucture</h3>
-//                                     <span class="skills__number">60%</span>
-
-//                                 </div>
-//                                 <div class="skills__bar">
-//                                     <span class="skills__percentage skills__data-stucture">
-
-//                                     </span>
-//                                 </div>
-//                             </div>
 
 
                         </div>
