@@ -33,7 +33,7 @@ const About = () => {
                         <div className="about__titles">
                             <div className="line"><hr/></div>
                             <h2 className="section__title">Projects</h2>
-                            <h1 className="about-summary-discription" >I've completed almost all projects, some are in developing mode where still i'm working</h1 >
+                            <h1 className="about-summary-discription" >I've selected some major projects like banking application, online test application, i've completed almost all projects, some are in developing mode where i'm still working</h1 >
                         </div>
                         <div className="about__titles">
                              <div className="line"><hr/></div>
