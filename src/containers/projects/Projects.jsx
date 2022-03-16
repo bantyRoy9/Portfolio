@@ -11,7 +11,7 @@ const Projects=() =>{
         <div className="project section__padding" id="project">
             <div className="project__title ">
                 <h1 className="project__title-name gradient__text ">
-                   <span> Projects </span> Where,  
+                   <span> Projects, </span> Where
                 </h1>
                 <h1 className="project__title-name1">
                 I am Working ..
@@ -40,7 +40,7 @@ const Projects=() =>{
                     <div className="project__subcontainers">
                         <div className="project__subcontainer1">
                         <div className="project__imgs">
-                            <img src={disney} alt="" />
+                            <img src={parking} alt="" />
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
