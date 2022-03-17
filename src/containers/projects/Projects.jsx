@@ -25,7 +25,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__details">
                             <div className="project__date">
-                                <span>12/10/2021</span>
+//                                 <span>12/10/2021</span>
                             </div>
                             <div className="project__detail-title">
                                 <h2>PortFolio</h2>
@@ -40,15 +40,15 @@ const Projects=() =>{
                     <div className="project__subcontainers">
                         <div className="project__subcontainer1">
                         <div className="project__imgs">
-                            <img src={parking} alt="" />
+                            <img src={disney} alt="" />
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-                                <span>12/10/2021</span>
+//                                 <span>12/10/2021</span>
                             </div>
                             <div className="project__detail-title">
                                 <h2>Disney-Clone</h2>
-                                <p>Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro perspiciatis sit, placeat provident tempore, adipisci totam esse alias dolorum labore ratione amet voluptates saepe? Quibusdam aut saepe facere ipsum unde? dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
+                                <p>Lorem ipsum Lorem, ipsum dolor sit amet cplaceat provident tempore, adipisci totam esse alias dolorum labore ratione amet voluptates saepe? Quibusdam aut saepe facere ipsum unde? dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
                             </div>
                             <div className="project__read-more">
                                 <a href="/">Read More</a>
@@ -57,11 +57,11 @@ const Projects=() =>{
                         </div>
                         <div className="project__subcontainer2">
                         <div className="project__imgs">
-                            <img src={tesla} alt="" />
+                            <img src={tesl} alt="" />
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-                                <span>12/10/2021</span>
+//                                 <span>12/10/2021</span>
                             </div>
                             <div className="project__detail-title">
                                 <h2>Blog-web-app</h2>
@@ -78,7 +78,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-                                <span>12/10/2021</span>
+//                                 <span>12/10/2021</span>
                             </div>
                             <div className="project__detail-title">
                                 <h2>ParkingZone</h2>
