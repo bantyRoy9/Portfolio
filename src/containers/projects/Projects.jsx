@@ -1,6 +1,7 @@
 import React from 'react' 
 import './projects.css'
 import blog from '../../assests/blog.png'
+import apna from '../../assests/apna.png'
 import tesla from '../../assests/tesla.png'
 import disney from '../../assests/disney.png'
 import parking from '../../assests/parking.png'
@@ -91,18 +92,18 @@ const Projects=() =>{
                         </div>
                         <div className="project__subcontainer4">
                         <div className="project__imgs">
-                            <img src={portfolio} alt="" />
+                            <img src={apna} alt="" />
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-                                <span>12/10/2021</span>
+//                                 <span>12/10/2021</span>
                             </div>
                             <div className="project__detail-title">
-                                <h2>Bankist-App</h2>
+                                <h2>apnaBank-App</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
                             </div>
                             <div className="project__read-more">
-                                <a href="/">Read More</a>
+                                <a target="_blank" href="https://github.com/bantyRoy9/moderPortfolio">Read More</a>
                             </div>
                         </div>
                         </div>
