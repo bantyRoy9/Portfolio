@@ -1,6 +1,6 @@
 import React from 'react' 
 import './projects.css'
-// import blog1 from '../../assests/blog01.png'
+import blog from '../../assests/blog.png'
 import tesla from '../../assests/tesla.png'
 import disney from '../../assests/disney.png'
 import parking from '../../assests/parking.png'
@@ -57,7 +57,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__subcontainer2">
                         <div className="project__imgs">
-                            <img src={tesl} alt="" />
+                            <img src={blog} alt="" />
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
@@ -68,7 +68,7 @@ const Projects=() =>{
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
                             </div>
                             <div className="project__read-more">
-                                <a href="/">Read More</a>
+                                <a target="_blank" href="https://blogs-web.herokuapp.com/">Blog-web || Banty</a>
                             </div>
                         </div>
                         </div>
