@@ -12,7 +12,7 @@ const About = () => {
                          <h2 className="section__title">About me</h2>
                     </div>
                     <div className="about__descriptions ">
-                    <p className="about__discription">I'm a Full stack web developer & a Passinate Web Designer, experiences with HTML, CSS, JavaScript, ReactJS, NodeJS, Express, Mongodb, Firebase,  Github and others, In my free time I like to build different web applications, learn new technologies, and try to improve my technical Skils </p>
+                    <p className="about__discription">I am a dedicated and motivated MERN stack developer with one year of professional experience. Throughout my journey, I have gained a deep understanding of the MERN stack (MongoDB, Express.js, React.js, and Node.js) and have successfully delivered robust and scalable web applications. I am committed to continuously learning and implementing best practices to enhance the quality and efficiency of my work. </p>
                     </div>
                  </div>
                  <div className="about__container-block2">
