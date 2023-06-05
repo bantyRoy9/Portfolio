@@ -4,12 +4,14 @@
     justify-content: space-between;
     flex-direction: row;
 }
-.skills1{
+
+.skills1 {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
+
 .skills-heading {
     flex: 1;
     display: flex;
@@ -27,9 +29,11 @@
     font-weight: 800;
     font-family: var(--font-family);
 }
-.section__paddings{
-    padding:0 4rem;
+
+.section__paddings {
+    padding: 0 4rem;
 }
+
 .skills-heading p {
     color: white;
     font-size: 2rem;
@@ -51,19 +55,22 @@
     margin-right: 30px;
 }
 
-.about__skills{
+.about__skills {
     border: 1px solid violet;
     padding: 2rem;
-    margin:0 2rem;
+    margin: 0 2rem;
     width: 100%;
 }
+
 .skills__container {
     gap: 0;
 }
+
 .skills__number,
-.skills__name{
+.skills__name {
     color: white;
 }
+
 .skills__header {
     display: flex;
     align-items: center;
@@ -100,6 +107,7 @@
     margin-left: auto;
     transition: .4s;
 }
+
 .skills__titles {
     display: flex;
     justify-content: space-between;
@@ -123,7 +131,7 @@
 
 .skills__percentage {
     display: block;
-    background:var(--gradient-text);
+    background: var(--gradient-text);
 
 }
 
@@ -184,9 +192,10 @@
 .skills__open .skills__arrow {
     transform: rotate(-180deg);
 }
-.grids{
+
+.grids {
     display: grid;
-    grid-template-columns: repeat(2 , 2fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
 }
 
@@ -203,39 +212,46 @@
 
 
 @media (max-width: 800px) {
-    .skills{
+    .skills {
         text-align: center;
     }
+
     .skills-heading {
-    
+
         text-align: center;
         font-size: 20px;
     }
-    .skills-heading p{
+
+    .skills-heading p {
         margin: auto;
-        
+
     }
-    .skills-heading h1{
+
+    .skills-heading h1 {
         margin-top: 20px;
     }
-    .skills1{
+
+    .skills1 {
         padding: 2px;
         width: 90%;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .about__skills{
-            margin: 2rem;
+
+    .about__skills {
+        margin: 2rem;
     }
-    .aaa{
+
+    .aaa {
         margin: .1rem;
         padding: 2rem;
     }
-    .skills-container{
+
+    .skills-container {
         display: block;
         margin: 0;
         padding: 0;
         justify-content: center;
     }
-    
+
 
 }
