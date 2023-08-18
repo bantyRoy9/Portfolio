@@ -28,18 +28,18 @@ const About = () => {
                         <div className="about__titles">
                             <div className="line"><hr/></div>
                             <h2 className="section__title">Experience</h2>
-                            <h1 className="about-summary-discription">I'm Fresher Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ratione?</h1>
+                            <h1 className="about-summary-discription">I've 1+ Year of experience in UI development at <a href='www.50hertz.in' target='_blank'>50 Hertz Ltd.</a></h1>
                         </div>
                         <div className="about__titles">
                             <div className="line"><hr/></div>
                             <h2 className="section__title">Projects</h2>
-                            <h1 className="about-summary-discription" >I've selected some major projects like banking application, online test application, i've completed almost all projects, some are in developing mode where i'm still working</h1 >
+                            <h1 className="about-summary-discription" >I've selected some major projects like <a target='_blank' href='https://devtourbookingapp.netlify.app/'>TourBooking Application</a>, <a target='_blank' href='https://devapnabank.netlify.app/'>Banking application</a> etc. i've completed almost all projects, some are in development where i'm still working</h1 >
                         </div>
-                        <div className="about__titles">
+                        {/* <div className="about__titles">
                              <div className="line"><hr/></div>
                             <h2 className="section__title">Work</h2>
                             <h1  className="about-summary-discription">First I learn and try to implement. all projects have done by myself</h1 >
-                        </div>
+                        </div> */}
                      </div>
                  </div>
                 </div>
