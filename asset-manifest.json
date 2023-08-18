@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e4f72a05.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a9f5d4f6.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a9f5d4f6.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.f42b49fa.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f42b49fa.js.map",
-    "static/js/2.8d39df94.chunk.js": "/Portfolio/static/js/2.8d39df94.chunk.js",
-    "static/js/2.8d39df94.chunk.js.map": "/Portfolio/static/js/2.8d39df94.chunk.js.map",
-    "static/js/3.82e1ddb8.chunk.js": "/Portfolio/static/js/3.82e1ddb8.chunk.js",
-    "static/js/3.82e1ddb8.chunk.js.map": "/Portfolio/static/js/3.82e1ddb8.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.397fe2ba.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5945470b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5945470b.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.86ea8487.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.86ea8487.js.map",
+    "static/js/2.152afb75.chunk.js": "/Portfolio/static/js/2.152afb75.chunk.js",
+    "static/js/2.152afb75.chunk.js.map": "/Portfolio/static/js/2.152afb75.chunk.js.map",
+    "static/js/3.dfc14060.chunk.js": "/Portfolio/static/js/3.dfc14060.chunk.js",
+    "static/js/3.dfc14060.chunk.js.map": "/Portfolio/static/js/3.dfc14060.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e4f72a05.chunk.css.map": "/Portfolio/static/css/main.e4f72a05.chunk.css.map",
-    "static/js/2.8d39df94.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8d39df94.chunk.js.LICENSE.txt",
+    "static/css/main.397fe2ba.chunk.css.map": "/Portfolio/static/css/main.397fe2ba.chunk.css.map",
+    "static/js/2.152afb75.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.152afb75.chunk.js.LICENSE.txt",
     "static/media/apna.6e9f08e9.png": "/Portfolio/static/media/apna.6e9f08e9.png",
     "static/media/blog.953e81a1.png": "/Portfolio/static/media/blog.953e81a1.png",
     "static/media/disney.4c4a19d7.png": "/Portfolio/static/media/disney.4c4a19d7.png",
@@ -21,9 +21,9 @@
     "static/media/tesla.923a9581.png": "/Portfolio/static/media/tesla.923a9581.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f42b49fa.js",
-    "static/js/2.8d39df94.chunk.js",
-    "static/css/main.e4f72a05.chunk.css",
-    "static/js/main.a9f5d4f6.chunk.js"
+    "static/js/runtime-main.86ea8487.js",
+    "static/js/2.152afb75.chunk.js",
+    "static/css/main.397fe2ba.chunk.css",
+    "static/js/main.5945470b.chunk.js"
   ]
 }
