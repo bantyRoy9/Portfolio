@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.css'
-import logo from '../../assests/ll.png'
+// import logo from '../../assests/ll.png'
 const Navbar=() =>{
     const [toggleManu , setToggleMenu] = useState(false);
 
@@ -10,7 +10,7 @@ const Navbar=() =>{
             <div className="navbar-links">
                 <div className="navbar-links-logo">
                     {/* <p>Banty</p> */}
-                    <img src={logo} alt="" />
+                    {/* <img src={logo} alt="" /> */}
                 </div>
                  <div className="navbar-links__container">
                     {/* <p><a href="#home">Home</a></p>

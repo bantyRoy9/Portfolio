@@ -26,7 +26,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__details">
                             <div className="project__date">
-//                                 <span>12/10/2021</span>
+                               {/* <span>12/10/2021</span> */}
                             </div>
                             <div className="project__detail-title">
                                 <h2>PortFolio</h2>
@@ -45,7 +45,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-//                                 <span>12/10/2021</span>
+                                 {/* <span>12/10/2021</span> */}
                             </div>
                             <div className="project__detail-title">
                                 <h2>Disney-Clone</h2>
@@ -62,14 +62,14 @@ const Projects=() =>{
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-//                                 <span>12/10/2021</span>
+                                 {/* <span>12/10/2021</span> */}
                             </div>
                             <div className="project__detail-title">
                                 <h2>Blog-web-app</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
                             </div>
                             <div className="project__read-more">
-                                <a target="_blank" href="https://blogs-web.herokuapp.com/">Blog-web || Banty</a>
+                                <a target="_blank" rel='noreferrer' href="https:blogs-web.herokuapp.com/">Blog-web || Banty</a>
                             </div>
                         </div>
                         </div>
@@ -79,7 +79,7 @@ const Projects=() =>{
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-//                                 <span>12/10/2021</span>
+                                 {/* <span>12/10/2021</span> */}
                             </div>
                             <div className="project__detail-title">
                                 <h2>ParkingZone</h2>
@@ -96,14 +96,14 @@ const Projects=() =>{
                         </div>
                         <div className="project__subdetails">
                             <div className="project__date">
-//                                 <span>12/10/2021</span>
+                                 {/* <span>12/10/2021</span> */}
                             </div>
                             <div className="project__detail-title">
                                 <h2>apnaBank-App</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, optio. Itaque nesciunt dicta, unde quae quo dignissimos tenetur aperiam quisquam.</p>
                             </div>
                             <div className="project__read-more">
-                                <a target="_blank" href="https://github.com/bantyRoy9/moderPortfolio">Read More</a>
+                                <a target="_blank" href="https:github.com/bantyRoy9/moderPortfolio">Read More</a>
                             </div>
                         </div>
                         </div>

@@ -3,16 +3,11 @@
     padding: 50px;
     align-items: center;
     height: 82.5vh;
-    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-    background: conic-gradient(from 90deg at 0% 100%, rgba(0, 0, 0, 1) 98%, rgba(7, 58, 187, 1) 100%);
 }
 
 .intro h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 4vw;
+    font-size: 3rem;
     width: 90%;
     font-weight: 900;
     margin-top: -50px;
@@ -23,7 +18,7 @@
 
 }
 
-.intro a {
+.intro>a{
     background-color: transparent;
     color: var(--color-subtext);
     width: 15vw;
@@ -38,7 +33,7 @@
     transition: .15s;
 }
 
-.intro a:hover {
+.intro>a:hover {
     box-shadow: inset 30vw 0 0 0 var(--color-subtext);
     color: white;
     outline: none;
@@ -46,12 +41,24 @@
     transition: .5s;
     /* box-shadow: inset 0 0 0 0 var(--first-color-alt); */
 }
-
+.header__social{
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+}
 .name {
     font-size: 100px;
     color: transparent;
     -webkit-text-stroke: 1px #FFF;
     background: url('../../assests/back.png');
+    background-clip: text;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;

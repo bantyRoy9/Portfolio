@@ -16,26 +16,31 @@
     color: unset;
     text-decoration: none;
   }
-  
+  .h10{
+    height: 100vh;
+  }
+  .app{
+    position: relative;
+  }
   .gradient__bg {
-
     background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-      
     /* safari 5.1+,chrome 10+ */
-background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
     /* opera 11.10+ */
-background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
     /* ie 10+ */
-   background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
-
-
-/* global 90%+ browsers support */
-background:conic-gradient(from 90deg at 0% 100%, rgba(0, 0, 0, 1) 98%, rgba(7, 58, 187, 1) 100%);
-
-
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+    /* global 90%+ browsers support */
+    background:conic-gradient(from 90deg at 0% 100%, rgba(0, 0, 0, 1) 98%, rgba(7, 58, 187, 1) 100%);
+}
+.gradient__brd{
+  border: 1px solid violet;
+}
+.gredient_txt{
+  background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
   
   

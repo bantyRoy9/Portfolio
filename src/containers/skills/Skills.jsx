@@ -11,7 +11,7 @@ const Skills = () => (
     <div className="skills-heading">
     <div className="line"><hr/></div>   
       <p>Skills</p>
-      <h1 className="gradient__text">The Future is Now and We Just Need to Realize It. Step into Future Today. & Make it Happen...</h1>
+      <h1 className="gradient__text">The Future is Now and We Just Need to Realize It, Step into Future Today and lets Make it Happen...</h1>
     </div>
     <div className="skills-container">
     <div className="skills__container">
