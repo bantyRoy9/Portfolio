@@ -1,29 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.397fe2ba.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5945470b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5945470b.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.86ea8487.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.86ea8487.js.map",
-    "static/js/2.152afb75.chunk.js": "/Portfolio/static/js/2.152afb75.chunk.js",
-    "static/js/2.152afb75.chunk.js.map": "/Portfolio/static/js/2.152afb75.chunk.js.map",
-    "static/js/3.dfc14060.chunk.js": "/Portfolio/static/js/3.dfc14060.chunk.js",
-    "static/js/3.dfc14060.chunk.js.map": "/Portfolio/static/js/3.dfc14060.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.41330def.css",
+    "main.js": "/Portfolio/static/js/main.f2a42ea6.js",
+    "static/js/787.a1fbcab3.chunk.js": "/Portfolio/static/js/787.a1fbcab3.chunk.js",
+    "static/media/blog.png": "/Portfolio/static/media/blog.953e81a18ee35fdf2e80.png",
+    "static/media/parking.png": "/Portfolio/static/media/parking.d928262196cb22c75eed.png",
+    "static/media/disney.png": "/Portfolio/static/media/disney.4c4a19d783186f3623db.png",
+    "static/media/tesla.png": "/Portfolio/static/media/tesla.923a95814ca7cc4c669b.png",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.2996fbf38118648247f0.png",
+    "static/media/apna.png": "/Portfolio/static/media/apna.6e9f08e9a17270127a19.png",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.397fe2ba.chunk.css.map": "/Portfolio/static/css/main.397fe2ba.chunk.css.map",
-    "static/js/2.152afb75.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.152afb75.chunk.js.LICENSE.txt",
-    "static/media/apna.6e9f08e9.png": "/Portfolio/static/media/apna.6e9f08e9.png",
-    "static/media/blog.953e81a1.png": "/Portfolio/static/media/blog.953e81a1.png",
-    "static/media/disney.4c4a19d7.png": "/Portfolio/static/media/disney.4c4a19d7.png",
-    "static/media/ll.11f58139.png": "/Portfolio/static/media/ll.11f58139.png",
-    "static/media/parking.d9282621.png": "/Portfolio/static/media/parking.d9282621.png",
-    "static/media/portfolio.2996fbf3.png": "/Portfolio/static/media/portfolio.2996fbf3.png",
-    "static/media/tesla.923a9581.png": "/Portfolio/static/media/tesla.923a9581.png"
+    "main.41330def.css.map": "/Portfolio/static/css/main.41330def.css.map",
+    "main.f2a42ea6.js.map": "/Portfolio/static/js/main.f2a42ea6.js.map",
+    "787.a1fbcab3.chunk.js.map": "/Portfolio/static/js/787.a1fbcab3.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.86ea8487.js",
-    "static/js/2.152afb75.chunk.js",
-    "static/css/main.397fe2ba.chunk.css",
-    "static/js/main.5945470b.chunk.js"
+    "static/css/main.41330def.css",
+    "static/js/main.f2a42ea6.js"
   ]
 }
