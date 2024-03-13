@@ -3,7 +3,7 @@ import  './header.css'
 
 const Header =() =>(
     <div className="intro section__padding" id="home">
-        <h1>I'm <br /><span className="name">Banti Kumar,</span><br />Mern Stack Web Developer & Web Designer.</h1>
+        <h1>I'm <br /><span className="name">Banti Kumar</span><br />Mern Stack Web Developer & Web Designer.</h1>
         <a href="#about" className="button">Know More ....</a>
         <div class="header__social">
             <a href="https://www.linkedin.com/in/banty-rai-8ab795197/"  target="_blank" rel="noreferrer" ><i class="uil uil-linkedin-alt gredient_txt"></i></a>
