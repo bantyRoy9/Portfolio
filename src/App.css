@@ -52,7 +52,7 @@
   }
   
   .section__padding {
-    padding: 4rem 6rem;
+    padding: 4rem 5rem;
   }
   
   .section__margin {
@@ -98,6 +98,9 @@ img {
     text-align: center;
     margin: auto;
   }
+  .section__padding {
+    padding: 1rem;
+    }
 }
 
 .button {

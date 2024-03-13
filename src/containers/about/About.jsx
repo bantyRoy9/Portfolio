@@ -33,43 +33,11 @@ const About = () => {
                         <div className="about__titles">
                             <div className="line"><hr/></div>
                             <h2 className="section__title">Projects</h2>
-                            <h1 className="about-summary-discription" >I've selected some major projects like <a target='_blank' href='https://devtourbookingapp.netlify.app/'>TourBooking Application</a>, <a target='_blank' href='https://devapnabank.netlify.app/'>Banking application</a> etc. i've completed almost all projects, some are in development where i'm still working</h1 >
+                            <h1 className="about-summary-discription" >I've selected some major projects like <a target='_blank' rel="noreferrer" href='https://devtourbookingapp.netlify.app/'>TourBooking Application</a>, <a target='_blank' rel="noreferrer" href='https://devapnabank.netlify.app/'>Banking application</a> etc. i've completed almost all projects, some are in development where i'm still working</h1 >
                         </div>
-                        {/* <div className="about__titles">
-                             <div className="line"><hr/></div>
-                            <h2 className="section__title">Work</h2>
-                            <h1  className="about-summary-discription">First I learn and try to implement. all projects have done by myself</h1 >
-                        </div> */}
                      </div>
                  </div>
                 </div>
-                
-
-                {/* <div className="about__data">
-                   
-                    <div className="about__info">
-                        <div>
-                            <span className="about__info-title">experience</span>
-                            <span className="about__info-name"> Fresher <br/> </span>
-                        </div>
-
-                        <div>
-                            <span className="about__info-title">Projects</span>
-                            <span className="about__info-name"> completed <br/>10+</span>
-                        </div>
-                        <div>
-                            <span className="about__info-title">Work</span>
-                            <span className="about__info-name"> Self <br/> At Home</span>
-                        </div>
-                    </div>
-                </div> */}
-
-                {/* <div className="about__button">
-                    <a href="http://bantyportfolio.herokuapp.com/" target="_blank" className="button button--flex">Online Cv</a>
-                    <a download="" href="assets/pdf/Alexa-Cv.pdf" className="button button--flex">
-                        Download CV<i className="uil uil-download-alt button-icon"></i>
-                    </a>
-                </div> */}
             </div>
 
         </div>

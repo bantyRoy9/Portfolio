@@ -10,7 +10,7 @@
 
 .intro h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 4vw;
+    font-size: clamp(40px,4vw,60px);
     font-weight: 900;
     color: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     color: rgb(243, 235, 235);
@@ -43,13 +43,13 @@
     bottom: 2%;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     gap: 20px;
     padding: 10px;
     font-size: 1.5rem;
 }
 .name {
-    font-size: 8vw;
+    font-size: clamp(80px,8vw,120px);
     color: transparent;
     -webkit-text-stroke: 1px #FFF;
     background: url('../../assests/back.png');
@@ -75,15 +75,15 @@
     }
 
     .intro h1 {
-        font-size: 5vh;
         width: 100%;
         margin-top: 50px;
         margin-left: 20px;
     }
 
     .name {
-        font-size: 60px;
-        margin-bottom: 50px;
+        /* font-size: 60px; */
+        line-height: 4rem;
+        /* margin-bottom: 50px; */
     }
 
     .intro a {

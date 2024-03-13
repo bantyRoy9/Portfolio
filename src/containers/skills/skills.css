@@ -1,26 +1,16 @@
 .skills {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.skills1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    display: grid;
+    grid-gap:40px;
+    grid-template-columns: repeat(2,50%);    
 }
 
 .skills-heading {
-    flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
     text-align: left;
-    margin-right: 5rem;
 }
 
 .skills-heading h1 {
@@ -31,7 +21,7 @@
 }
 
 .section__paddings {
-    padding: 0 4rem;
+    /* padding: 0 4rem; */
 }
 
 .skills-heading p {
@@ -44,26 +34,25 @@
     margin-bottom: 2rem;
 }
 
-.skills-container {
+/*.skills-container {
     flex: 1.2;
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
     flex-direction: column;
     color: white;
     margin-top: 50px;
     margin-right: 30px;
 }
 
+.skills__container {
+    gap: 0;
+}
+*/
+
 .about__skills {
     border: 1px solid violet;
     padding: 2rem;
-    margin: 0 2rem;
     width: 100%;
-}
-
-.skills__container {
-    gap: 0;
 }
 
 .skills__number,
