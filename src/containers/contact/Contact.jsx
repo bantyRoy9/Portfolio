@@ -9,7 +9,7 @@ const Contact=() =>{
                     <h1 className="contact__title gradient__text">Do you want to Hire me into the <br />future before others</h1>
                 </div>
                 <div className="resume__link">
-                    <a href="/" className="resume__btn">Resume Link</a>
+                    <a href="https://drive.google.com/file/d/1jOntHTs_KvjQ4cUj9ATtdLw7V0Ey7lvT/view?usp=drive_link" target="_blank" rel="noreferrer" className="resume__btn">Resume Link</a>
                 </div>
 
             </div>
