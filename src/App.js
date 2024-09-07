@@ -9,13 +9,15 @@ import Loading from './components/Loading/Loading';
 const  App = () => {
   const [loading,setLoading]=useState(true);
   useEffect(()=>{
+    console.log('load');
+    
     setTimeout(()=>{
       setLoading(false);
     },2900);
   },[])
   return (
     <div className="App">
-      {loading ? <><Loading/></>:<>
+      {loading ? <Loading/>:<>
       <div className="gradient__bg h10">
         <Navbar />
         <Header />

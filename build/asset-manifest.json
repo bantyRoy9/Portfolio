@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f6c948a1.css",
-    "main.js": "/Portfolio/static/js/main.a47f2140.js",
-    "static/js/787.a1fbcab3.chunk.js": "/Portfolio/static/js/787.a1fbcab3.chunk.js",
-    "static/media/blog.png": "/Portfolio/static/media/blog.953e81a18ee35fdf2e80.png",
-    "static/media/parking.png": "/Portfolio/static/media/parking.d928262196cb22c75eed.png",
-    "static/media/disney.png": "/Portfolio/static/media/disney.4c4a19d783186f3623db.png",
-    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.2996fbf38118648247f0.png",
-    "static/media/apna.png": "/Portfolio/static/media/apna.6e9f08e9a17270127a19.png",
-    "index.html": "/Portfolio/index.html",
-    "main.f6c948a1.css.map": "/Portfolio/static/css/main.f6c948a1.css.map",
-    "main.a47f2140.js.map": "/Portfolio/static/js/main.a47f2140.js.map",
-    "787.a1fbcab3.chunk.js.map": "/Portfolio/static/js/787.a1fbcab3.chunk.js.map"
+    "main.css": "/static/css/main.f6c948a1.css",
+    "main.js": "/static/js/main.0e9c4432.js",
+    "static/media/blog.png": "/static/media/blog.953e81a18ee35fdf2e80.png",
+    "static/media/parking.png": "/static/media/parking.d928262196cb22c75eed.png",
+    "static/media/disney.png": "/static/media/disney.4c4a19d783186f3623db.png",
+    "static/media/portfolio.png": "/static/media/portfolio.2996fbf38118648247f0.png",
+    "static/media/apna.png": "/static/media/apna.6e9f08e9a17270127a19.png",
+    "index.html": "/index.html",
+    "main.f6c948a1.css.map": "/static/css/main.f6c948a1.css.map",
+    "main.0e9c4432.js.map": "/static/js/main.0e9c4432.js.map"
   },
   "entrypoints": [
     "static/css/main.f6c948a1.css",
-    "static/js/main.a47f2140.js"
+    "static/js/main.0e9c4432.js"
   ]
 }
